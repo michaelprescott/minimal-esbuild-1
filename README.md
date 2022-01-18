@@ -5,6 +5,9 @@ About
 =====
 A minimalistic esbuild project.
 
+NOTE: esbuild is amazingly fast; however, code splitting does not currently allow separating a vendor bundle from application code.  Notice how the app.js bundle is over 1MB here because React was compiled into our 12-line example application.
+
+REFERENCE: https://github.com/evanw/esbuild/issues/16
 
 Getting Started
 ---------------
